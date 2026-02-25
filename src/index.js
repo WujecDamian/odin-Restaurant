@@ -1,4 +1,7 @@
 import './styles.css'
+import './menu-styles.css'
+import './about-styles.css'
+
 import { renderInit } from './initPage.js'
 import { renderMenu } from './menuPage.js'
 import { renderAbout } from './aboutPage.js'
@@ -8,9 +11,9 @@ const menuPage = document.querySelector('#menu-page')
 const aboutPage = document.querySelector('#about-page')
 
 /* load initial page on page load */
-document.addEventListener('DOMContentLoaded', () => {
+/* document.addEventListener('DOMContentLoaded', () => {
   renderInit()
-})
+}) */
 
 /* - TABBING -  */
 homePage.addEventListener('click', () => {
