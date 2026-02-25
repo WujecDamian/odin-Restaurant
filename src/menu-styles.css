@@ -49,11 +49,11 @@
   width: 80%;
   gap: 3rem;
   grid-template: repeat(auto-fill, minmax(350px, 1fr)) / repeat(
-      1,
+      2,
       minmax(200px, 500px)
     );
   place-content: center;
-  margin: 4rem auto;
+  margin: 1rem auto;
 }
 .menu__item {
   display: flex;
@@ -66,11 +66,13 @@
   object-fit: cover;
   height: auto;
   width: auto;
-  mask-image: url(./assets/images/mask-removebg-preview.png);
+  mask-image: url(./assets/images/mask1.png);
   mask-repeat: no-repeat;
   mask-position: center;
+  mask-size: contain;
 }
 .item__name {
+  margin-top: 1rem;
   font-family:
     system-ui,
     -apple-system,
@@ -83,6 +85,12 @@
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-align: center;
 }
 .item__pricing {
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  text-indent: 3.5rem;
 }
