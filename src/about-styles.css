@@ -1,0 +1,16 @@
+.about {
+  width: 50%;
+  margin: 2rem auto;
+  color: white;
+}
+.about__h1 {
+  font-size: 8rem;
+  text-align: center;
+}
+.about__p {
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  letter-spacing: 0.75px;
+  text-align: justify;
+  width: 60ch;
+}

@@ -11,9 +11,9 @@ const menuPage = document.querySelector('#menu-page')
 const aboutPage = document.querySelector('#about-page')
 
 /* load initial page on page load */
-/* document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
   renderInit()
-}) */
+})
 
 /* - TABBING -  */
 homePage.addEventListener('click', () => {
