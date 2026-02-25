@@ -59,7 +59,6 @@
   display: flex;
 
   flex-direction: column;
-  border: 1px solid white;
   aspect-ratio: 9/12;
 }
 .menu__item img {
@@ -67,8 +66,23 @@
   object-fit: cover;
   height: auto;
   width: auto;
+  mask-image: url(./assets/images/mask-removebg-preview.png);
+  mask-repeat: no-repeat;
+  mask-position: center;
 }
 .item__name {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 .item__pricing {
 }
