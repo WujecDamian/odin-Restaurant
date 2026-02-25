@@ -34,11 +34,16 @@ export default {
         type: 'asset/resource'
       },
       {
-        test: /\.(woff|woff2|eot|ttf|otf)$/i,
-        type: 'asset/resource', // ← emits separate file
-        generator: {
-          filename: 'fonts/[name][ext][query]' // or 'assets/fonts/[name][ext]'
-        }
+        test: /\.(woff(2)?|ttf|eot|svg)(\?v=\d+\.\d+\.\d+)?$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/'
+            }
+          }
+        ]
       }
     ]
   }
