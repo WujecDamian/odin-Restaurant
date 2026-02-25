@@ -68,6 +68,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
+  gap: 1rem;
+  transition: gap 2s ease-in-out;
+}
+.logo--wrapper:hover {
+  gap: 10rem;
 }
 /* - LOGO - */
 .logo--top,
