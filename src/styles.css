@@ -5,6 +5,9 @@
   margin: 0;
   font-family: "Courgette";
 }
+:root {
+  --primary: rgb(255, 252, 244);
+}
 html {
 }
 body {
@@ -55,4 +58,20 @@ body {
 .header__nav button:focus::after {
   transform: rotate(-45deg) translateY(-5px) translateX(5px);
   width: 10px;
+}
+
+/* - LOGO - */
+.logo--top,
+.logo--main,
+.logo--bottom {
+  color: var(--primary);
+}
+.logo--top {
+  color: var(--primary);
+}
+.logo--main {
+  font-size: clamp(2.25rem, 10vw, 5.5rem);
+}
+.logo--bottom {
+  color: var(--primary);
 }
