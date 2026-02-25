@@ -94,6 +94,8 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  opacity: 0.85;
+
   letter-spacing: 1rem;
   line-height: 0px;
   font-weight: 600;
@@ -103,6 +105,7 @@ body {
 .logo--main {
   font-size: clamp(2.25rem, 10vw, 5.5rem);
   font-weight: 900;
+  opacity: 0.95;
   text-wrap: nowrap;
 }
 .logo--bottom {
@@ -118,6 +121,8 @@ body {
     "Open Sans",
     "Helvetica Neue",
     sans-serif;
+  opacity: 0.95;
+
   font-size: clamp(0.5rem, 2vw, 1rem);
 
   line-height: 0px;
