@@ -74,6 +74,7 @@ body {
 .logo--main,
 .logo--bottom {
   color: var(--primary);
+  filter: drop-shadow(6px 6px 3px rgba(0, 0, 0, 0.199));
 }
 .logo--top {
   font-family:
@@ -117,4 +118,36 @@ body {
   line-height: 0px;
   letter-spacing: 0.25rem;
   font-weight: 200;
+}
+/* - KEBAB IMAGE BIG - */
+.kebab img {
+  filter: drop-shadow(25px 10px 19px rgba(0, 0, 0, 0.199));
+}
+/* - IMAGES WRAPPER - */
+.images__wrapper {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+  gap: 1rem;
+}
+.images__item {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10rem;
+  corner-shape: squircle;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.199);
+  filter: brightness(0.8) contrast(1.1) grayscale(0.2);
+  transition:
+    filter 0.15s ease-in-out,
+    transform 0.15s ease-in-out;
+}
+.images__item:hover {
+  cursor: pointer;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 10rem;
+  corner-shape: squircle;
+  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.199);
+  filter: brightness(1) contrast(1.05) grayscale(0.1);
+  transform: translateY(-5px);
 }
