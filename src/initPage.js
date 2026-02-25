@@ -4,7 +4,7 @@ import kebabSmall2 from './assets/images/kebab-small2.webp'
 import kebabSmall3 from './assets/images/kebab-small3.webp'
 import kebabSmall4 from './assets/images/kebab-small4.webp'
 
-document.addEventListener('DOMContentLoaded', () => {
+export function renderInit () {
   const content = document.querySelector('#content')
   /* create logo wrapper div */
   const logoWrapper = document.createElement('div')
@@ -72,4 +72,4 @@ document.addEventListener('DOMContentLoaded', () => {
   /* append small images to wrapper */
   imagesWrapper.append(img1, img2, img3, img4)
   content.append(imagesWrapper)
-})
+}
