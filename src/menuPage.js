@@ -58,7 +58,7 @@ export function renderMenu () {
   menuItem3.className = 'menu__item'
   const itemImg3 = document.createElement('img')
   itemImg3.className = 'item__image'
-  itemImg3.src = kebabSmall2
+  itemImg3.src = kebabSmall3
   itemImg3.width = 250
   itemImg3.alt = 'Mixed Meat Doner in Pita'
   const itemName3 = document.createElement('h2')
@@ -73,7 +73,7 @@ export function renderMenu () {
   menuItem4.className = 'menu__item'
   const itemImg4 = document.createElement('img')
   itemImg4.className = 'item__image'
-  itemImg4.src = kebabSmall2
+  itemImg4.src = kebabSmall4
   itemImg4.width = '250'
   itemImg4.alt = 'Beef Shawarma-Style Wrap'
   const itemName4 = document.createElement('h2')
