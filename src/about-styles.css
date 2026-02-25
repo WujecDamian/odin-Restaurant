@@ -1,7 +1,11 @@
 .about {
-  width: 50%;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
   margin: 2rem auto;
   color: white;
+  justify-content: center;
+  align-items: center;
 }
 .about__h1 {
   font-size: 8rem;
@@ -12,5 +16,27 @@
   font-size: 1.2rem;
   letter-spacing: 0.75px;
   text-align: justify;
-  width: 60ch;
+  max-width: 75ch;
+}
+@media (max-width: 768px) {
+  .about {
+    width: 100%;
+    color: white;
+    padding: 2rem;
+  }
+  .about__h1 {
+    font-size: 4rem;
+    text-align: center;
+    line-height: 3.5rem;
+    margin-bottom: 2rem;
+  }
+  .about__p {
+    margin: 0.5rem auto;
+    font-size: 1.2rem;
+    letter-spacing: 0.75px;
+    text-wrap: wrap;
+    text-align: justify;
+    white-space-collapse: collapse;
+    width: auto;
+  }
 }
