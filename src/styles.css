@@ -11,7 +11,8 @@
 html {
 }
 body {
-  background-color: rgba(0, 43, 23, 0.829);
+  background-color: rgba(71, 3, 3, 0.829);
+  /* background-color: rgba(0, 43, 23, 0.829);*/
 }
 #svg-noise {
   position: fixed;
