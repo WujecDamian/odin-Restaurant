@@ -32,6 +32,13 @@ export default {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: 'asset/resource'
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource', // ← emits separate file
+        generator: {
+          filename: 'fonts/[name][ext][query]' // or 'assets/fonts/[name][ext]'
+        }
       }
     ]
   }
