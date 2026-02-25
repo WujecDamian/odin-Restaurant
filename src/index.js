@@ -18,3 +18,13 @@ homePage.addEventListener('click', () => {
   renderInit()
   console.log('test')
 })
+menuPage.addEventListener('click', () => {
+  content.replaceChildren()
+  renderMenu()
+  console.log('test')
+})
+aboutPage.addEventListener('click', () => {
+  content.replaceChildren()
+  renderAbout()
+  console.log('test')
+})
